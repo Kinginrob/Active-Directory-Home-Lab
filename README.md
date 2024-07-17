@@ -32,7 +32,7 @@ The network diagram illustrates the structure of my virtual network setup, inclu
 6. Run Generate-Names-Create-Users.ps1 if you wish to generate new names and create user accounts.
 If you prefer to use pre-existing names, execute 1_CREATE_USERS.ps1 with names.txt.
 
-### Purpose of the Lab:
+## Purpose of the Lab:
 
 This lab serves as a practical application of system administration skills, focusing on network security and Active Directory management. It provides hands-on experience with real-world tasks that are crucial in enterprise network environments.
 
