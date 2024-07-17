@@ -13,21 +13,21 @@ The network diagram illustrates the structure of my virtual network setup, inclu
 - Generate-Names-Create-Users.ps1: PowerShell script that combines name generation and user creation in one process.
 - names.txt: Contains pre-generated names that can be used directly to create user accounts.
 
-### Prepare the Environment
+### Prepare the Environment:
 
 1. Install Oracle VirtualBox and ensure you have the Windows Server 2019 and Windows 10 ISO files.
 2. Set up a virtual machine (VM) for Windows Server 2019 and configure it as your Domain Controller.
    
-### Configure the Network
+### Configure the Network:
 
 3. Refer to the network diagram above to setup DHCP settings and internal networking between the VMs.
 
-### Active Directory Setup
+### Active Directory Setup:
 
 4. Install Active Directory Domain Services on the Windows Server VM.
 5. Configure the AD environment using the FQDN mydomain.com.
 
-### Script Usage
+### Script Usage:
 
 6. Run Generate-Names-Create-Users.ps1 if you wish to generate new names and create user accounts.
 If you prefer to use pre-existing names, execute 1_CREATE_USERS.ps1 with names.txt.
