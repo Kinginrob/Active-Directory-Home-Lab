@@ -44,7 +44,7 @@ This lab serves as a practical application of system administration skills, focu
 - PowerShell
   
 ## Note
-*Make sure to adjust the script paths and environment settings based on your local setup to ensure everything functions correctly.
+*Make sure to adjust the script paths and environment settings based on your local setup to ensure everything functions correctly.*
 
-Feel free to clone this repository and adapt the scripts and setups as needed for your learning or testing purposes.*
+*Feel free to clone this repository and adapt the scripts and setups as needed for your learning or testing purposes.*
 
