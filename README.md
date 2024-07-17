@@ -1,17 +1,19 @@
 # Active-Directory-Home-Lab
 This repository details my home lab setup using Oracle VirtualBox and Windows Server 2019 for managing an Active Directory environment. It includes steps for setting up a virtual network, installing software, and configuring AD services to mimic enterprise network management, showcasing my skills in system administration and network security.
 
+## Project Files
+
+- 1_CREATE_USERS.ps1: PowerShell script to generate user accounts in Active Directory.
+- Generate-Names-Create-Users.ps1: PowerShell script that combines name generation and user creation in one process.
+- names.txt: Contains pre-generated names that can be used directly to create user accounts.
+
 ## Network Setup
 
 The network diagram illustrates the structure of my virtual network setup, including IP addressing and connectivity across different components such as Domain Controller and Windows 10 client within the VMware network environment.
 
 ![image](https://github.com/user-attachments/assets/42f0555d-9a88-4aeb-9a42-55d5588baa99)
 
-## Project Files
-
-- 1_CREATE_USERS.ps1: PowerShell script to generate user accounts in Active Directory.
-- Generate-Names-Create-Users.ps1: PowerShell script that combines name generation and user creation in one process.
-- names.txt: Contains pre-generated names that can be used directly to create user accounts.
+## Steps: 
 
 ### Prepare the Environment:
 
