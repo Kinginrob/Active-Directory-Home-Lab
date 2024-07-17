@@ -9,40 +9,36 @@ The network diagram illustrates the structure of my virtual network setup, inclu
 
 Project Files:
 
-1_CREATE_USERS.ps1: PowerShell script to generate user accounts in Active Directory.
-Generate-Names-Create-Users.ps1: PowerShell script that combines name generation and user creation in one process.
-names.txt: Contains pre-generated names that can be used directly to create user accounts.
+- 1_CREATE_USERS.ps1: PowerShell script to generate user accounts in Active Directory.
+- Generate-Names-Create-Users.ps1: PowerShell script that combines name generation and user creation in one process.
+- names.txt: Contains pre-generated names that can be used directly to create user accounts.
 
 Prepare the Environment:
 
-Install Oracle VirtualBox and ensure you have the Windows Server 2019 and Windows 10 ISO files.
-Set up a virtual machine (VM) for Windows Server 2019 and configure it as your Domain Controller.
+1. Install Oracle VirtualBox and ensure you have the Windows Server 2019 and Windows 10 ISO files.
+2. Set up a virtual machine (VM) for Windows Server 2019 and configure it as your Domain Controller.
+   
 Configure the Network:
+3. Refer to the network diagram above to setup DHCP settings and internal networking between the VMs.
 
-Refer to the network diagram above to setup DHCP settings and internal networking between the VMs.
 Active Directory Setup:
 
-Install Active Directory Domain Services on the Windows Server VM.
-Configure the AD environment using the FQDN mydomain.com.
+4. Install Active Directory Domain Services on the Windows Server VM.
+5. Configure the AD environment using the FQDN mydomain.com.
+   
 Script Usage:
-
-Run Generate-Names-Create-Users.ps1 if you wish to generate new names and create user accounts.
+6. Run Generate-Names-Create-Users.ps1 if you wish to generate new names and create user accounts.
 If you prefer to use pre-existing names, execute 1_CREATE_USERS.ps1 with names.txt.
+
 Purpose of the Lab:
 This lab serves as a practical application of system administration skills, focusing on network security and Active Directory management. It provides hands-on experience with real-world tasks that are crucial in enterprise network environments.
 
 Technologies Used:
-
-Oracle VirtualBox
-Windows Server 2019
-Windows 10
-PowerShell
-Learning Outcomes:
-By setting up this home lab, I've enhanced my understanding of:
-
-AD DS installation and configuration.
-User account management via PowerShell scripting.
-Network configuration and management within a virtualized environment.
+- Oracle VirtualBox
+- Windows Server 2019
+- Windows 10
+- PowerShell
+  
 Note:
 Make sure to adjust the script paths and environment settings based on your local setup to ensure everything functions correctly.
 
