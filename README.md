@@ -12,7 +12,6 @@ This repository details my home lab setup using Oracle VirtualBox and Windows Se
 *The network diagram illustrates the structure of my virtual network setup, including IP addressing and connectivity across different components such as Domain Controller and Windows 10 client within the VMware network environment.*
 
 ![image](https://github.com/user-attachments/assets/42f0555d-9a88-4aeb-9a42-55d5588baa99)
-
 ## Steps: 
 
 ### Prepare the Environment:
