@@ -3,9 +3,9 @@ This repository details my home lab setup using Oracle VirtualBox and Windows Se
 
 ## Project Files
 
-- 1_CREATE_USERS.ps1: PowerShell script to generate user accounts in Active Directory.
-- Generate-Names-Create-Users.ps1: PowerShell script that combines name generation and user creation in one process.
-- names.txt: Contains pre-generated names that can be used directly to create user accounts.
+- **1_CREATE_USERS.ps1:** PowerShell script to generate user accounts in Active Directory.
+- **Generate-Names-Create-Users.ps1:** PowerShell script that combines name generation and user creation in one process.
+- **names.txt:** Contains pre-generated names that can be used directly to create user accounts.
 
 ## Network Setup
 
